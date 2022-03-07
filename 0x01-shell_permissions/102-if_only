@@ -1,0 +1,4 @@
+#!/bin/bash
+my_var = $(date)
+user_name = `stat -c '%U' hello`
+echo "Today is $my_var"
