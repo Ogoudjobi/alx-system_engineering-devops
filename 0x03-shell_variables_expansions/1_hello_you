@@ -1,5 +1,2 @@
 #!/bin/bash
-if [$user];
-then 
-	echo "hello $USER" 
-fi
+echo "hello $USER" 
