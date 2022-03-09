@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%.2f\n' $NUM
+printf '%o\n' $(( 5#$( echo $WATER | tr -s "water" 01234) + 5#$(echo $STIR | tr -s "stir." 01234 ) )) | tr -s 01234567 "bestchol"
